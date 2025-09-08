@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Ventas hoy",
+    "value": {
+      "number": 12000,
+      "isMoney": true
+    },
+    "subtitle": "vs. ayer: +12%"
+  },
+  {
+    "title": "Clientes nuevos",
+    "value": {
+      "number": 12,
+      "isMoney": false
+    },
+    "subtitle": "vs. semana pasada"
+  },
+  {
+    "title": "Tickets abiertos",
+    "value": {
+      "number": 12,
+      "isMoney": false
+    },
+    "subtitle": "actualmente"
+  },
+  {
+    "title": "Ingresos mensuales",
+    "value": {
+      "number": 12000,
+      "isMoney": true
+    },
+    "subtitle": "Septiembre 2025"
+  }
+]
