@@ -24,7 +24,7 @@
 import { ref, onMounted } from 'vue'
 import MetricCard from '@/presentation/components/MetricCard.vue'
 import SalesChart from '@/presentation/components/SalesChart.vue'
-import { MetricRepositoryImpl } from '@/infrastructure/repositories/MetricRepositoryImpl.ts'
+import { MetricRepositoryImpl } from '@/infrastructure/repositories/MetricRepositoryImpl'
 import type {Metric} from "@/domain/entities/Metric.ts";
 
 const metrics = ref<Metric[]>([])

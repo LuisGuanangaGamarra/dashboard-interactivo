@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow">
+  <div class="sales-chart bg-white dark:bg-gray-800 p-6 rounded-2xl shadow">
     <h3 class="text-lg font-bold mb-4">Ventas por mes</h3>
     <div class="h-72">
       <Line :data="chartData" :options="chartOptions" />
